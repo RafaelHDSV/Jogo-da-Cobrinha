@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogo da Cobrinha</title>
+
+    <link rel="stylesheet" href="/CSS/Jogo da Cobrinha/style.css">
+</head>
+
+<body onkeydown="blue(Event)">
+
+    <header class="header">
+        <h1>Jogo da Cobrinha</h1>
+    </header>
+
+    <div class="cronometro">
+        <button class="button" onclick="ligarCronometro(), contarPontos();">Iniciar</button>
+        <h1 id="cronometro">00:00</h1>
+    </div>
+
+    <div class="pontos">
+
+        <div class="pontos-azul">
+            <h1>Pontos: 00</h1>
+        </div>
+
+        <div>
+            <h1 id="pontos-vermelho">Pontos: 00</h1>
+        </div>
+
+    </div>
+
+    <div class="conteudo">
+
+        <div>
+            <canvas id="snake-azul" width="512" height="512"></canvas>
+        </div>
+
+        <div>
+            <canvas id="snake-vermelha" width="512" height="512"></canvas>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>Desenvolvido por Rafael Vieira</p>
+    </footer>
+
+    <script src="/JS/Jogo da Cobrinha/Snake Azul/setup.js"></script>
+    <script src="/JS/Jogo da Cobrinha/Snake Vemelha/setup.js"></script>
+
+</body>
+
+</html>

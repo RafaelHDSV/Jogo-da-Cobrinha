@@ -1,0 +1,88 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #A6ACAF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 45px;
+    background-color: white;
+    color: black;
+}
+
+#cronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    background-color: black;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos-azul {
+    margin-right: 420px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#pontos-vermelho {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#snake-vermelha {
+    margin: 15px;
+    border: 5px solid black;
+}
+
+#snake-azul {
+    margin: 15px;
+    border: 5px solid black;
+}
+
+.footer {
+    margin: 15px;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    background-color: black;
+}
